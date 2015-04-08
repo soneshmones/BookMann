@@ -1,1 +1,17 @@
-/* CSS declarations go here */
+ul {
+    list-style-type: none;
+    margin: 10;
+    padding: 10;
+    background: red;
+}
+
+li {
+    display: inline;
+
+}
+
+h1 {
+	font-size: 60pt;
+	color: gray;
+	text-align: center;
+}
