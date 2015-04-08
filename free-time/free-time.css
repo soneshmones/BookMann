@@ -2,7 +2,7 @@ ul {
     list-style-type: none;
     margin: 10;
     padding: 10;
-    background: red;
+    background: white;
 }
 
 li {
@@ -14,4 +14,13 @@ h1 {
 	font-size: 60pt;
 	color: gray;
 	text-align: center;
+}
+
+body {
+	background-image: linear-gradient(to bottom, #530000, #ffffff 100%);
+	background-attachment: fixed;
+}
+
+#login-buttons {
+  display: block;
 }
