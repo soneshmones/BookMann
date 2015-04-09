@@ -1,3 +1,13 @@
+#schedule-container
+{
+    height: 400px;
+    width: 800px;
+    background-color: white;
+    margin-right: auto;
+    margin-left: auto;
+
+}
+
 ul {
     list-style-type: none;
     margin: 10;
@@ -20,6 +30,8 @@ body {
 	background-image: linear-gradient(to bottom, #530000, #ffffff 100%);
 	background-attachment: fixed;
 }
+
+
 
 #login-buttons {
   display: block;
