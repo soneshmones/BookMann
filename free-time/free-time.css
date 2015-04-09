@@ -35,4 +35,5 @@ body {
 
 #login-buttons {
   display: block;
+  font-color: gray;
 }
