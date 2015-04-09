@@ -38,8 +38,19 @@ body {
 
 .day-container {
     float: left;
-    height: 600px;
+    background: white;
     width: 100px;
+    height: 100%;
+    
+}
+
+.class{
+    background: #b2b2b2;
+    width:80px;
+    height: 40px;
+    border: 10px solid white;
+    font-size: 10pt;
+
 }
 
 
