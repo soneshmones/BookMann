@@ -26,6 +26,7 @@ h1 {
 	font-size: 60pt;
 	color: #a34747;
 	text-align: center;
+    font-family: Arial;
 }
 
 body {
@@ -54,4 +55,39 @@ body {
 
 #login-buttons {
   display: block;
+
 }
+
+.button {
+   border-top: 1px solid #1d5b82;
+   background: #ffffff;
+   background: -webkit-gradient(linear, left top, left bottom, from(#a7d4f2), to(#ffffff));
+   background: -webkit-linear-gradient(top, #a7d4f2, #ffffff);
+   background: -moz-linear-gradient(top, #a7d4f2, #ffffff);
+   background: -ms-linear-gradient(top, #a7d4f2, #ffffff);
+   background: -o-linear-gradient(top, #a7d4f2, #ffffff);
+   padding: 20px 40px;
+   -webkit-border-radius: 40px;
+   -moz-border-radius: 40px;
+   border-radius: 40px;
+   -webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   -moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   box-shadow: rgba(0,0,0,1) 0 1px 0;
+   text-shadow: rgba(0,0,0,.4) 0 1px 0;
+   color: #000000;
+   font-size: 24px;
+   font-family: 'Lucida Grande', Helvetica, Arial, Sans-Serif;
+   text-decoration: none;
+   vertical-align: middle;
+   margin: auto;
+   float:left;
+   }
+.button:hover {
+   border-top-color: #699ee8;
+   background: #699ee8;
+   color: #ccc;
+   }
+.button:active {
+   border-top-color: #1b435e;
+   background: #1b435e;
+   }
