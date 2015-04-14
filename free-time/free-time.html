@@ -11,14 +11,29 @@
 <ul>
 	<li>{{>loginButtons}} </li>
   </ul>
-  <div class="button">Student Portal</div>
-  <div class="button">Teacher Portal</div>
+<br>
+  
+	  <a href="/student"><div class="button">Student Portal</div></a>
+	  <br><br>
+	  <div class="button">Teacher Portal</div>
+
 
 <br>
 
 	</template>
 
-<template name ="main page">
+
+	<template name="student">
+
+<header><h1>FREE TIME!</h1></header>
+<ul>
+	<li>{{>loginButtons}} </li>
+  </ul>
+<br>
+
+	</template>
+
+<template name ="teacher">
 <body>
 
 <header><h1>FREE TIME!</h1></header>
@@ -166,4 +181,4 @@
 </body>
 </template>
 
-<template>
+

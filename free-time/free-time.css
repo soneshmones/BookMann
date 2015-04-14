@@ -58,36 +58,41 @@ body {
 
 }
 
+
+
 .button {
-   border-top: 1px solid #1d5b82;
+   border-top: 1px solid #ffffff;
    background: #ffffff;
-   background: -webkit-gradient(linear, left top, left bottom, from(#a7d4f2), to(#ffffff));
-   background: -webkit-linear-gradient(top, #a7d4f2, #ffffff);
-   background: -moz-linear-gradient(top, #a7d4f2, #ffffff);
-   background: -ms-linear-gradient(top, #a7d4f2, #ffffff);
-   background: -o-linear-gradient(top, #a7d4f2, #ffffff);
+   background: -webkit-gradient(linear, left top, left bottom, from(#b2b2b2), to(#ffffff));
+   background: -webkit-linear-gradient(top, #b2b2b2, #ffffff);
+   background: -moz-linear-gradient(top, #b2b2b2, #ffffff);
+   background: -ms-linear-gradient(top, #b2b2b2, #ffffff);
+   background: -o-linear-gradient(top, #b2b2b2, #ffffff);
    padding: 20px 40px;
-   -webkit-border-radius: 40px;
-   -moz-border-radius: 40px;
-   border-radius: 40px;
+   -webkit-border-radius: 0px;
+   -moz-border-radius: 0px;
+   border-radius: 0px;
    -webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
    -moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
    box-shadow: rgba(0,0,0,1) 0 1px 0;
    text-shadow: rgba(0,0,0,.4) 0 1px 0;
-   color: #000000;
-   font-size: 24px;
-   font-family: 'Lucida Grande', Helvetica, Arial, Sans-Serif;
+   text-align: center;
+   color: #530000;
+   font-size: 23px;
+   font-family: Helvetica, Arial, Sans-Serif;
    text-decoration: none;
    vertical-align: middle;
-   margin: auto;
-   float:left;
+   max-width: 300px;
+   margin-right: auto;
+   margin-left: auto;
+   text-decoration: none;
    }
 .button:hover {
-   border-top-color: #699ee8;
-   background: #699ee8;
+   border-top-color: #530000;
+   background: #530000;
    color: #ccc;
    }
 .button:active {
-   border-top-color: #1b435e;
-   background: #1b435e;
+   border-top-color: #5c1b1b;
+   background: #5c1b1b;
    }

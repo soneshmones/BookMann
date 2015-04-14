@@ -1,6 +1,9 @@
 Router.map(function(){
-	this.route('home', {
-		path: 'home'
+	this.route('student', {
+		path: 'student'
+	});
+	this.route('teacher', {
+		path: 'teacher'
 	});
 	this.route('login', {
 		path: '/'
