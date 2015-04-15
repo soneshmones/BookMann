@@ -13,7 +13,7 @@ Router.map(function(){
 
 
   function toggle(btn){
-if(document.getElementById(btn).style.color === '#cccccc')
+if(document.getElementById(btn).style.color == 'rgb(204, 204, 204)')
 	document.getElementById(btn).style.color = '#ffffff'
 else
 {
