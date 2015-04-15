@@ -31,7 +31,7 @@ h1 {
 }
 
 body {
-	background-image: linear-gradient(to bottom, #530000, #7A0000 100%);
+	background-image: linear-gradient(to bottom, #530000, #FF00FF 100%);
 	background-attachment: fixed;
 }
 
