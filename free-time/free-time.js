@@ -13,12 +13,12 @@ Router.map(function(){
 
 
   function toggle(btn){
-if(document.getElementById(btn).style.color == 'rgb(204, 204, 204)')
-	document.getElementById(btn).style.color = '#ffffff'
+if(document.getElementById(btn).style.background == 'rgb(204, 204, 204)')
+	document.getElementById(btn).style.background = '#ffffff'
 else
 {
 
-	document.getElementById(btn).style.color = '#cccccc';
+	document.getElementById(btn).style.background = '#cccccc';
 }
 
   };
